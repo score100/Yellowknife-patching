@@ -1,0 +1,11 @@
+Plans of today - 
+*Upload all shit on Git
+*Backup on harddrive
+
+Total setup decision:
+
+- 2* Puredata. One on Midichannel 1, the other on midichannel 2.
+- Midithrough on the two different patches needs to be set to the needed out-channel (1 for notes, 2 for video)
+^^^^ DOESNT WORK ^^^^^^^^^^^
+
+- 1* Puredata & 1 time yamaha reface CS. Channel makes no difference.

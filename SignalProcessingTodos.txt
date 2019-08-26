@@ -1,0 +1,49 @@
+Two Parts (x = Done | + = To do): 
+
+a) Notes doing images.	
+x Influence of different image per key. All octaves are the same
+	|-> I need to figure out a way how to make higher notes different than lower notes. This was the advantage of the octave-based approach. I was thinking of generally making higher notes lighter. But that I haven't managed yet. 
+x Trying out influence of audio to image brightness
+	|-> through frequency. Doesn't look pretty and not representative/
+	|-> trough volume. Looks too frictional even with soomthing out the signal inside vvvv.
+	|-> This needs however some further research. I wanna understand what pitch and amplitude really is and how an audio signal is formed.
+	|-> And there is a chance for emulating the "rounding" of frequencuies within VVVV. With any way there needs to be some influence by an audio signal.
+
+x (far future) - ADSR sum of filter and amp_env are now summed up. If the signal of the filter adsr rises above adsr of the amp it gets automatically preset to the same time. 
+		 It would be great if this can happen more within realtime of the entire envelope. Plus I'm not sure what difference between "<>" and "min" / "max" in vvvs is.
+		- Decay (& sustain?) need more proper implementation
+
++ Filter Output
+	|-> filter is cutting down all audio when release time is short. But when adding the two envelopes instead of multiplying them it looks way better.  
++ Delay feedback
+	|-> Try out emulating feedback as done in PD or play around with Echo(texture) in VVVV.
+
+
+b) Notes doing video
+	|-> Midi start & stop is already in there. Also video-loading. Main culprit's for testing are GUI flexibility and badly behaving midi-nodes.
+	|-> I want to try to have the video become dark when there are no notes coming in. This makes more sense & creates a better coherence with the single note-handling. 
+	|-> The speed of a video should be controlled by BPM
+	x Tried out having an image-sequence based video where every time a note hits one frame advances. This looks kinda dumb. 
+	  It works with different pictures but note with the same image slighty altering by hitting a note. 
+		|
+		|
+		~ Conclusion ~ : *With a continous sequence (like an arp) Frame-per-note advancing makes sense. But then it should be a video with something like 5 fps instead of 30.
+				 *With an interrupted sequence (like 3 notes in 16 steps) I looks rubish. 
+				 > Therefore if it is a continous sequence there should Frame-per-note advancing
+				 > And when it is an interrupted sequence then it should be either different pictures used or video by bpm with lightness controlled by midi-notes. I'm gonna try the latter as well.
+
+
+c) Notes on Audio:
+
+	- Pd-patch needs zynthian access, midi-controls.
+	- Testing of FUDI transmission from zynth to windows needs to be tested
+
+
+
+a) has priority over b) .
+
+
+
+Gui flexibility improvements:
+		
+

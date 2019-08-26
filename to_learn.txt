@@ -1,0 +1,3 @@
+Roadmap:
+Learning OSC & Netowrking
+Check in for new way's of influencing VVVV
