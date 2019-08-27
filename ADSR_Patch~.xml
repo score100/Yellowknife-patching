@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta38.1.dtd" >
-   <PATCH nodename="E:\Documents\Yellowknife_patch\ADSR_Patch.v4p" systemname="ADSR_Patch" filename="E:\Documents\Yellowknife_patch\ADSR_Patch.v4p" scrollx="0" scrolly="0" bgcolor="10537215">
+   <PATCH nodename="E:\Documents\Yellowknife_patch\Yellowknife-GIT\ADSR_Patch.v4p" systemname="ADSR_Patch" filename="E:\Documents\Yellowknife_patch\ADSR_Patch.v4p" scrollx="0" scrolly="0" bgcolor="10537215">
    <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="0">
    <BOUNDS type="Node" left="285" top="9960" width="100" height="100">
    </BOUNDS>

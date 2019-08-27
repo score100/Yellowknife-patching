@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta38.1.dtd" >
-   <PATCH nodename="E:\Documents\Yellowknife_patch\Yellowknife.v4p" systemname="Yellowknife" filename="E:\Documents\extrovert_export\Yellowknife.v4p" scrollx="15" scrolly="10179" bgcolor="15329769">
-   <BOUNDS type="Window" left="4800" top="3210" width="17625" height="14085">
+   <PATCH nodename="E:\Documents\Yellowknife_patch\Yellowknife-GIT\Yellowknife.v4p" systemname="Yellowknife" filename="E:\Documents\extrovert_export\Yellowknife.v4p" scrollx="15" scrolly="4845" bgcolor="15329769">
+   <BOUNDS type="Window" left="4305" top="510" width="17625" height="14085">
    </BOUNDS>
    <PACK Name="dx11" Version="1.3.1">
    </PACK>
@@ -95,7 +95,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="630" top="135" width="11295" height="6135">
    </BOUNDS>
-   <BOUNDS type="Window" left="4800" top="3210" width="17625" height="14085">
+   <BOUNDS type="Window" left="4305" top="510" width="17625" height="14085">
    </BOUNDS>
    <PIN pinname="device" visible="1">
    </PIN>
@@ -397,7 +397,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="2130" top="9870" width="5235" height="5110">
    </BOUNDS>
-   <BOUNDS type="Window" left="11580" top="3930" width="5235" height="4605">
+   <BOUNDS type="Window" left="11580" top="3930" width="7590" height="4605">
    </BOUNDS>
    <PIN pinname="play" visible="1" slicecount="1" values="0">
    </PIN>
@@ -419,7 +419,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="4575" top="9795" width="4800" height="3600">
    </BOUNDS>
-   <BOUNDS type="Window" left="4800" top="3210" width="17625" height="14085">
+   <BOUNDS type="Window" left="4305" top="510" width="17625" height="14085">
    </BOUNDS>
    <PIN pinname="image-c output" visible="1">
    </PIN>
@@ -1446,16 +1446,16 @@
    <PIN pinname="String Type" slicecount="1" values="MultiLine">
    </PIN>
    </NODE>
-   <NODE systemname="Renderer (DX11)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="Renderer (DX11)" componentmode="InABox" id="338">
+   <NODE systemname="Renderer (DX11)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="Renderer (DX11)" componentmode="InAWindow" id="338">
    <BOUNDS type="Node" left="1425" top="13530" width="100" height="100">
    </BOUNDS>
    <BOUNDS type="Box" left="1425" top="13530" width="6000" height="4500">
    </BOUNDS>
-   <BOUNDS type="Window" left="28800" top="0" width="28800" height="16200">
+   <BOUNDS type="Window" left="4980" top="1560" width="28800" height="16200">
    </BOUNDS>
    <PIN pinname="Layers" visible="1" slicecount="1" values="||">
    </PIN>
-   <PIN pinname="Fullscreen" slicecount="1" values="1">
+   <PIN pinname="Fullscreen" slicecount="1" values="0">
    </PIN>
    </NODE>
    <NODE systemname="DelayWithFeedback" filename="DelayWithFeedback.v4p" nodename="DelayWithFeedback.v4p" componentmode="InAWindow" id="373">
@@ -1627,7 +1627,7 @@
    </PIN>
    <PIN pinname="Enabled" slicecount="1" values="1">
    </PIN>
-   <PIN pinname="Fade" slicecount="1" visible="1" values="0.94">
+   <PIN pinname="Fade" slicecount="1" visible="1" values="0.92">
    </PIN>
    <PIN pinname="Alpha" slicecount="1" values="1">
    </PIN>
@@ -1862,8 +1862,6 @@
    <PIN pinname="X Input Value" slicecount="1" values="0">
    </PIN>
    </NODE>
-   <LINK srcnodeid="433" srcpinname="Y Output Value" dstnodeid="373" dstpinname="Feedback">
-   </LINK>
    <NODE systemname="Add (Value Spectral)" nodename="Add (Value Spectral)" componentmode="Hidden" id="435" hiddenwhenlocked="1">
    <BOUNDS type="Node" left="5550" top="2835" width="100" height="100">
    </BOUNDS>

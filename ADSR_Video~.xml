@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta38.1.dtd" >
-   <PATCH nodename="E:\Documents\extrovert_export\ADSR_Video.v4p" systemname="ADSR_Video" filename="E:\Documents\extrovert_export\ADSR_Video.v4p" scrollx="0" scrolly="-360" bgcolor="10537215">
+   <PATCH nodename="E:\Documents\Yellowknife_patch\Yellowknife-GIT\ADSR_Video.v4p" systemname="ADSR_Video" filename="E:\Documents\extrovert_export\ADSR_Video.v4p" scrollx="0" scrolly="-360" bgcolor="10537215">
    <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="0">
    <BOUNDS type="Node" left="975" top="8715" width="100" height="100">
    </BOUNDS>

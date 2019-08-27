@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta38.1.dtd" >
-   <PATCH nodename="E:\Documents\Yellowknife_patch\Yellowknife-GIT\video-a.v4p" systemname="video-a" filename="F:\extrovert_export\video-a.v4p" scrollx="0" scrolly="-360">
+   <PATCH nodename="E:\Documents\Yellowknife_patch\Yellowknife-GIT\video-a.v4p" systemname="video-a" filename="F:\extrovert_export\video-a.v4p" scrollx="0" scrolly="2172">
    <NODE systemname="FileStream (DX11.Texture Vlc)" filename="%VVVV%\packs\dx11\nodes\plugins\vlc\VVVV.DX11.Nodes.Vlc.dll" nodename="FileStream (DX11.Texture Vlc)" componentmode="Hidden" id="0" hiddenwhenlocked="1">
    <BOUNDS type="Node" left="2070" top="4005" width="1635" height="270">
    </BOUNDS>
@@ -15,7 +15,7 @@
    </PIN>
    <PIN pinname="Do Seek" slicecount="1" values="0">
    </PIN>
-   <PIN pinname="Speed" slicecount="1" values="0.31">
+   <PIN pinname="Speed" slicecount="1" values="0.5">
    </PIN>
    <PIN pinname="Loop" slicecount="1" values="1">
    </PIN>

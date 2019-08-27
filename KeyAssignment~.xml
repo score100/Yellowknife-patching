@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta38.1.dtd" >
-   <PATCH nodename="E:\Documents\Yellowknife_patch\KeyAssignment.v4p" systemname="KeyAssignment" filename="E:\Documents\Yellowknife_patch\KeyAssignment.v4p" bgcolor="9673446" scrollx="60" scrolly="1800" locked="0">
+   <PATCH nodename="E:\Documents\Yellowknife_patch\Yellowknife-GIT\KeyAssignment.v4p" systemname="KeyAssignment" filename="E:\Documents\Yellowknife_patch\KeyAssignment.v4p" bgcolor="9673446" scrollx="60" scrolly="1800" locked="0">
    <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="0">
    <BOUNDS type="Node" left="5235" top="345" width="100" height="100">
    </BOUNDS>
